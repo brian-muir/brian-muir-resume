@@ -35,7 +35,7 @@ Contact Info {#contact}
 
 Skills {data-icon=suitcase}
 --------------------------------------------------------------------------------
-Experienced in statistical analysis, hypothesis testing, predictive modeling, experimental design, healthcare analytics, financial forecasting and budgeting.
+Experienced in statistical analysis, hypothesis testing, predictive analytics, exploratory data analysis, experimental design, healthcare analytics, financial forecasting and budgeting.
 
 **Languages and Tools**
 
