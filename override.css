@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap");
 
+/* Avoid hyphenation in aside bar*/
+.element {
+
+}
+
 /* Main text is monserrat*/
 body {
   font-family: "Montserrat", sans-serif;
@@ -87,6 +92,7 @@ sup {
   width: calc(var(--sidebar-width) + 9px);
   line-height: 1.2;
   font-size: 0.75rem;
+  hyphens: none
 }
 
 /* Make little circle outline be a light blue */
