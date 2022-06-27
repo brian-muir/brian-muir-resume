@@ -1,0 +1,203 @@
+---
+title: "Brian Muir's resume"
+author: Brian Muir
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> brian.m.muir@gmail.com
+- <i class="fa fa-github"></i> [github.com/bmuir](https://github.com/bmuir)
+- <i class="fa fa-phone"></i> +1 774-222-2081
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Experienced in statistical analysis, predictive modeling, healthcare analytics, financial forecasting and budgeting.
+
+- Highly skilled in R (RShiny, RMarkdown, dplyr, ggplot, tidymodels, etc.)
+- Git / Gitlab, SQL, Excel, Tableau, PowerBI
+- Experimental design, GLMs, time series, regression and classification
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+Main
+================================================================================
+
+Brian Muir, Ph.D. {#title}
+--------------------------------------------------------------------------------
+
+### Overview
+
+Highly-curious team-leader with 11-years of experience employing machine learning and statistics in the healthcare industry (5-years) and in the field of population genetics (6-years). Direct the forecasting of $10B+ in annual pharmacy and medical claim expenses using advanced regression, time series models, and domain knowledge. Possess extensive experience with data extraction, wrangling, analytics and reporting in R/SQL executed across diverse project areas.  
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of California Riverside
+
+Ph.D. in Evolution, Ecology & Organismal Biology
+
+Riverside, CA
+
+2010 - 2016
+
+Dissertation: Peto's Paradox and the Evolution of Cancer Suppression: Lessons From Flies, Humans, and Elephants
+
+### Boston College
+
+B.S. in Biology, Psychology (Double Major)
+
+Chestnut Hill, MA
+
+2010
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Director - Marketplace Forecasting
+
+Centene Corporation / *Actuarial Services*
+
+Chicago, IL
+
+2018 - 2022
+
+::: concise
+-Direct the development, implementation, and presentation of the financial forecast for $10B in annual medical and pharmacy claim expenses across 26 state products using mixed-models regression.
+
+-Lead a team of six actuaries and data analysts working on a wide range of analytics projects encompassing interactive claims dashboards using Rshiny and RMarkdown, advanced forecasting methods, SQL database creation and maintenance, and ad-hoc deep dive analyses for multiple business partners across Actuarial, Finance, Sales, Product, Policy, Medical Management, Pharmacy, and Marketing. 
+
+-Present findings to leadership on member-segmented variances to forecast, financial impacts of COVID cost and deferral of services, and deep-dives into claims trends during monthly CFO financial briefings.
+
+-Developed a member-level gross margin database detailing revenue and expense components across 40 targetable member characteristics that integrates disparate data sources using SQL/R. Deployed overlaying drill-down dashboard in RSConnect used widely across departments to identify risks and opportunities for member-segmented business actions.
+
+-Identified an $8M annual initiative to improve on risk adjustment code capture of Hemophilia that we continue to support with outreach targets via an in-production Shiny Dashboard.
+
+-Created stratified med-management model based on interacting the two dimensions of utilization and health status to highlight top conditions, disease management status/acceptance, risk score, risk adjustment code capture opportunity, claim costs and demographics by segment to identify optimal cohorts for med management programs. 
+:::
+
+### Data Scientist I
+
+Centene Corporation / *Actuarial Services*
+
+Chicago, IL
+
+2016 - 2018
+
+::: concise
+-Built and implemented a novel claims completion model using regression to estimate incurred but not reported expenses prior to month end; an advance over traditional methods to accelerate preparation of financial reporting and commentary. 
+
+-Developed a claims outlier detection model by Episode Treatment Group to direct investigations into abnormal claim areas each month.
+
+-Designed primary care auto-assignment algorithm to optimally assign members to high-quality, low-cost providers.
+
+-Devised Rx Trends and Top Conditions interactive RMarkdown dashboards to highlight emerging trends in Rx utilization; present findings monthly during Rx Governance Committee meetings.
+:::
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Graduate Research Assistant
+
+University of California Riverside
+
+Riverside, CA
+
+2010 - 2016
+
+-Analyzed large gene expression datasets with R (Bioconductor) using non-parametric statistical models.
+
+-Performed statistical tests of codon evolution in cancer gene-sequence alignments using maximum likelihood models.
+
+-Designed and directed multi-year longitudinal experimental evolution study on fruit flies overseeing 2 – 6 undergraduate volunteer research assistants per quarter. Employed advanced experimental design statistics. 
+
+-Taught 18 quarters of upper and lower division biology courses with up to 150 students per week. Mentored 2 – 6 undergraduate volunteer research assistants per quarter. 
+
+Publications and Presentations {data-icon=file}
+--------------------------------------------------------------------------------
+
+### The expression of tumour suppressors and proto-oncogenes in tissues susceptible to their hereditary cancers.
+
+British journal of cancer, 113(2), 345-353.
+
+N/A
+
+2015
+
+**Muir, B.** & Nunney, L.
+
+### Peto's paradox and the hallmarks of cancer: constructing an evolutionary framework for understanding the incidence of cancer.
+
+Phil. Trans. R. Soc. B, 370(1673), 20150161.
+
+N/A
+
+2015
+
+Nunney, L. & **Muir, B.**
+
+### International Biannual Evolution and Cancer Conference
+
+Lightning Talk and Poster
+
+N/A
+
+2015
+
+### Evolution Conference
+
+Talk
+
+N/A
+
+2014
+
+Actuarial Exams {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### PA - Predictive Analytics
+
+N/A
+
+N/A
+
+2019
+
+### SRM - Statistics for Risk Modeling
+
+N/A
+
+N/A
+
+2019
+
+### P - Probability 
+
+N/A
+
+N/A
+
+2018
+
+
+
