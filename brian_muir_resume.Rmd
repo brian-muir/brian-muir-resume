@@ -8,10 +8,19 @@ output:
       - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
       - resume               # DEFAULT FILE
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
+
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+```
 
 Aside
 ================================================================================
@@ -25,33 +34,29 @@ Contact Info {#contact}
 - For more information, please contact me via email.
 
 
-Skills {#skills}
+Languages {#skills}
 --------------------------------------------------------------------------------
-
 - Experienced in statistical analysis, predictive modeling, healthcare analytics, financial forecasting and budgeting.
 
 - Highly skilled in R (RShiny, RMarkdown, dplyr, ggplot, tidymodels, etc.)
 - Git / Gitlab, SQL, Excel, Tableau, PowerBI
 - Experimental design, GLMs, time series, regression and classification
 
-
-Disclaimer {#disclaimer}
+R Skills {#rskills}
 --------------------------------------------------------------------------------
+- Highly skilled in R (RShiny, RMarkdown, dplyr, ggplot, tidymodels, etc.)
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
-
-Last updated on `r Sys.Date()`.
+Statistic Skills {#statskills}
+--------------------------------------------------------------------------------
+- Experimental design, GLMs, time series, regression and classification
 
 Main
 ================================================================================
 
-Brian Muir, Ph.D. {#title}
+Brian Muir, PhD {#title}
 --------------------------------------------------------------------------------
 
-### Overview
-
-Highly-curious team-leader with 11-years of experience employing machine learning and statistics in the healthcare industry (5-years) and in the field of population genetics (6-years). Direct the forecasting of $10B+ in annual pharmacy and medical claim expenses using advanced regression, time series models, and domain knowledge. Possess extensive experience with data extraction, wrangling, analytics and reporting in R/SQL executed across diverse project areas.  
-
+Highly-inquisitive team-leader with 11+ years of experience employing machine learning and statistics in the healthcare industry and in computational biology. Direct the forecasting of $10+ billion in pharmacy and medical claim expenses using advanced predictive models in R for Centene Corporation's (Fortune 500) marketplace insurance LOB.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -62,9 +67,7 @@ Ph.D. in Evolution, Ecology & Organismal Biology
 
 Riverside, CA
 
-2010 - 2016
-
-Dissertation: Peto's Paradox and the Evolution of Cancer Suppression: Lessons From Flies, Humans, and Elephants
+2016 - 2010
 
 ### Boston College
 
@@ -72,7 +75,7 @@ B.S. in Biology, Psychology (Double Major)
 
 Chestnut Hill, MA
 
-2010
+2010 - 2006
 
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -82,11 +85,11 @@ Centene Corporation / *Actuarial Services*
 
 Chicago, IL
 
-Jul, 2018 - Present
+Current - Jul, 2018
 
--Direct the development, implementation, and presentation of the financial forecast for $10B+ in annual medical and pharmacy claim expenses across 26 state products using mixed-models regression.
+-Direct the development, implementation, and presentation of the financial forecast for medical expenses expenses across 26 state products using mixed-models regression.
 
--Lead a team of six actuaries and data analysts working on a wide range of analytics projects encompassing interactive claims dashboards using Rshiny and RMarkdown, advanced forecasting methods, SQL database creation and maintenance, and ad-hoc deep dive analyses for multiple business partners across Actuarial, Finance, Sales, Product, Policy, Medical Management, Pharmacy, and Marketing. 
+-Lead a team of six actuaries and data analysts working on a wide range of analytics projects encompassing: interactive claims dashboards using Rshiny and RMarkdown, advanced forecasting methods, SQL database creation and maintenance, and ad-hoc deep dive analyses for multiple business partners across Actuarial, Finance, Sales, Product, Policy, Medical Management, Pharmacy, and Marketing. 
 
 -Present findings to leadership on member-segmented variances to forecast, financial impacts of COVID cost and deferral of services, and deep-dives into claims trends during monthly CFO financial briefings.
 
@@ -103,7 +106,7 @@ Centene Corporation / *Actuarial Services*
 
 Chicago, IL
 
-Sep 2016 - Jul 2018
+Jul 2018- Sep 2016
 
 -Built and implemented a novel claims completion model using regression to estimate incurred but not reported expenses prior to month end; an advance over traditional methods to accelerate preparation of financial reporting and commentary. 
 
@@ -171,16 +174,20 @@ N/A
 
 2014
 
-Actuarial Exams {data-icon=chalkboard-teacher}
+Exams and Presentations {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-### PA - Predictive Analytics
+### Society of Actuaries Exams
 
 N/A
 
 N/A
 
-2019
+N/A
+
+-PA - Predictive Analytics | Jun 2019
+-SRM - Statistics for Risk Modeling | Jan 2019
+-P - Probability | Sep 2018
 
 ### SRM - Statistics for Risk Modeling
 
