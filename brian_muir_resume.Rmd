@@ -4,6 +4,9 @@ author: Brian Muir
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
+    css: 
+      - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
+      - resume               # DEFAULT FILE
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: false
 # uncomment this line to produce HTML and PDF in RStudio:
@@ -75,15 +78,13 @@ Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ### Director - Marketplace Forecasting
-
 Centene Corporation / *Actuarial Services*
 
 Chicago, IL
 
-2018 - 2022
+Jul, 2018 - Present
 
-::: concise
--Direct the development, implementation, and presentation of the financial forecast for $10B in annual medical and pharmacy claim expenses across 26 state products using mixed-models regression.
+-Direct the development, implementation, and presentation of the financial forecast for $10B+ in annual medical and pharmacy claim expenses across 26 state products using mixed-models regression.
 
 -Lead a team of six actuaries and data analysts working on a wide range of analytics projects encompassing interactive claims dashboards using Rshiny and RMarkdown, advanced forecasting methods, SQL database creation and maintenance, and ad-hoc deep dive analyses for multiple business partners across Actuarial, Finance, Sales, Product, Policy, Medical Management, Pharmacy, and Marketing. 
 
@@ -94,7 +95,7 @@ Chicago, IL
 -Identified an $8M annual initiative to improve on risk adjustment code capture of Hemophilia that we continue to support with outreach targets via an in-production Shiny Dashboard.
 
 -Created stratified med-management model based on interacting the two dimensions of utilization and health status to highlight top conditions, disease management status/acceptance, risk score, risk adjustment code capture opportunity, claim costs and demographics by segment to identify optimal cohorts for med management programs. 
-:::
+
 
 ### Data Scientist I
 
@@ -102,9 +103,8 @@ Centene Corporation / *Actuarial Services*
 
 Chicago, IL
 
-2016 - 2018
+Sep 2016 - Jul 2018
 
-::: concise
 -Built and implemented a novel claims completion model using regression to estimate incurred but not reported expenses prior to month end; an advance over traditional methods to accelerate preparation of financial reporting and commentary. 
 
 -Developed a claims outlier detection model by Episode Treatment Group to direct investigations into abnormal claim areas each month.
@@ -112,7 +112,6 @@ Chicago, IL
 -Designed primary care auto-assignment algorithm to optimally assign members to high-quality, low-cost providers.
 
 -Devised Rx Trends and Top Conditions interactive RMarkdown dashboards to highlight emerging trends in Rx utilization; present findings monthly during Rx Governance Committee meetings.
-:::
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
