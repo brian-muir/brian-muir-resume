@@ -13,14 +13,14 @@ output:
 #knit: pagedown::chrome_print
 ---
 
-<!-- ```{css, echo=FALSE} -->
-<!-- .pagedjs_page:not(:first-of-type) { -->
-<!--   --sidebar-width: 0rem; -->
-<!--   --sidebar-background-color: #ffffff; -->
-<!--   --main-width: calc(var(--content-width) - var(--sidebar-width)); -->
-<!--   --decorator-horizontal-margin: 0.2in; -->
-<!-- } -->
-<!-- ``` -->
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+```
 
 Aside
 ================================================================================
@@ -84,43 +84,61 @@ Centene Corporation / *Actuarial Services*
 
 Chicago, IL
 
-Current - Jul, 2018
+Current - May, 2020
 
-- Direct the development, implementation, and presentation of the financial forecast for medical expenses expenses across 26 state products using mixed-models regression.
-- Lead a team of six actuaries and data analysts working on a wide range of analytics projects  encompassing: interactive claims dashboards using Rshiny and RMarkdown, advanced forecasting  methods, SQL database creation and maintenance, and ad-hoc deep dive analyses for multiple    business partners across Actuarial, Finance, Sales, Product, Policy, Medical Management, Pharmacy, and Marketing. 
-- Present findings to leadership on member-segmented variances to forecast, financial impacts of COVID cost and deferral of services, and deep-dives into claims trends during monthly CFO financial briefings.
-- Developed a member-level gross margin database detailing revenue and expense components across 40 targetable member characteristics that integrates disparate data sources using SQL/R. Deployed overlaying drill-down dashboard in RSConnect used widely across departments to identify risks and opportunities for member-segmented business actions.
-- Identified an $8M annual initiative to improve on risk adjustment code capture of Hemophilia that we continue to support with outreach targets via an in-production Shiny Dashboard.
-- Created stratified med-management model based on interacting the two dimensions of utilization and health status to highlight top conditions, disease management status/acceptance, risk score, risk adjustment code capture opportunity, claim costs and demographics by segment to identify optimal cohorts for med management programs. 
-
-
-### Data Scientist I
-
+### Manager - Analytics & Reporting
 Centene Corporation / *Actuarial Services*
 
 Chicago, IL
 
-Jul 2018- Sep 2016
+May, 2020 - Jul, 2018
 
-- Built and implemented a novel claims completion model using regression to estimate incurred but not reported expenses prior to month end; an advance over traditional methods to accelerate preparation of financial reporting and commentary. 
-- Developed a claims outlier detection model by Episode Treatment Group to direct investigations into abnormal claim areas each month.
-- Designed primary care auto-assignment algorithm to optimally assign members to high-quality, low-cost providers.
-- Devised Rx Trends and Top Conditions interactive RMarkdown dashboards to highlight emerging trends in Rx utilization; present findings monthly during Rx Governance Committee meetings.
+- Direct the development, implementation, and presentation of the forecast for medical expenses across 27 states using mixed-models regression.
+- Lead a team of six actuaries and data analysts with diverse experience and backgrounds.
+- Developed strong relationships with various technical and non-technical business partners by supporting analytics with team's in-depth knowledge of company's medical, pharmacy, provider, membership, health status, sales, and payment data. 
+- Present findings to leadership on member-segmented variances to forecast, financial impacts of COVID cost and deferral of services, and deep-dives into claims trends during monthly CFO financial briefings.
+- Developed a member-level gross margin database detailing revenue and expense components across 40 targetable member characteristics that integrates disparate data sources using SQL/R. Deployed overlaying drill-down dashboard in RSConnect used widely across departments to identify risks and opportunities for member-segmented business actions.
+- Identified and support an $8M annual initiative improving on risk adjustment code capture by data-mining pharmacy prior authorization data.
+- Created stratified med-management targeting model based on interacting utilization and health status, disease management acceptance, and demographics.
+- Developed a member-level gross margin database detailing revenue and expense components across 40 targetable member characteristics that integrates disparate data sources using SQL/R. Deployed overlaying drill-down dashboard in RSConnect used widely across departments to identify risks and opportunities for member-segmented business actions.
+- Identified and support an $8M annual initiative improving on risk adjustment code capture by data-mining pharmacy prior authorization data.
+
+
+### Data Scientist I
+
+Centene Corporation / *Business Optimization*
+
+Chicago, IL
+
+Jul, 2018 - Oct, 2017
+
+### Data Analyst II
+
+Centene Corporation / *Business Optimization*
+
+Chicago, IL
+
+Oct, 2017 - Sep 2016
+
+- Built and implemented a novel claims completion model using regression to estimate incurred-but-not-reported expenses prior to month end. Model is used for early-warning and to accelerate preparation of financial reporting and commentary. 
+- Developed a probabilistic outlier-detection model based on episodes of care that is used to highlight targets for quality and cost-saving initiatives.
+- Designed enterprise's primary care auto-assignment algorithm to optimally assign members to local providers identified as high-quality and low-cost.
+- Devised Rx trends and top conditions interactive RMarkdown reports using automated commentary to highlight emerging trends in Rx utilization; present findings monthly to Pharmacy Directors of local health plans. 
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
-### Graduate Research Assistant
+### Graduate Research Assistant / Computational Biology
 
 University of California Riverside
 
 Riverside, CA
 
-2010 - 2016
+Sep, 2010 - Aug, 2016
 
 - Analyzed large gene expression datasets with R (Bioconductor) using non-parametric statistical models.
 - Performed statistical tests of codon evolution in cancer gene-sequence alignments using maximum likelihood models.
-- Designed and directed multi-year longitudinal experimental evolution study on fruit flies overseeing 2 – 6 undergraduate volunteer research assistants per quarter. Employed advanced experimental design statistics. 
+- Designed and directed a multi-year longitudinal experimental evolution study on fruit flies that employed advanced experimental design statistics. Oversaw 2 – 6 undergraduate volunteer research assistants per quarter.
 - Taught 18 quarters of upper and lower division biology courses with up to 150 students per week. Mentored 2 – 6 undergraduate volunteer research assistants per quarter. 
 
 Publications and Presentations {data-icon=file}
