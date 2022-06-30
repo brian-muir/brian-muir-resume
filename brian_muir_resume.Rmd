@@ -31,7 +31,6 @@ Contact Info {#contact}
 - <i class="fa fa-envelope"></i> brian.m.muir@gmail.com
 - <i class="fa fa-github"></i> [github.com/bmuir](https://github.com/bmuir)
 - <i class="fa fa-phone"></i> +1 774-222-2081
-- For more information, please contact me via email.
 
 Skills {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -55,7 +54,70 @@ Main
 Brian Muir, PhD {#title}
 --------------------------------------------------------------------------------
 
-Highly-inquisitive team-leader with 11+ years of experience employing machine learning and statistics in the healthcare industry and in computational biology. Direct the forecasting of $10+ billion in pharmacy and medical claim expenses using advanced predictive models in R for Centene Corporation's (Fortune 500) marketplace insurance LOB.
+Highly-inquisitive team-leader with 11+ years of experience employing machine learning and statistics in the healthcare industry and in computational biology. Direct the forecasting of $billions in pharmacy and medical expenses using predictive models in R for Centene Corporation's (Fortune 500) marketplace insurance LOB.
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Director - Marketplace Forecasting
+Centene Corporation / *Actuarial Services*
+
+Chicago, IL
+
+Current - May 2020
+
+### Manager - Analytics & Reporting
+Centene Corporation / *Actuarial Services*
+
+Chicago, IL
+
+May 2020 - Jul 2018
+
+- Direct the development, implementation, and presentation of a highly-visible forecast for 7,000+ financial estimates of cost and utilization by month for 27 state health plans and 11 claim categories (e.g. hospital inpatient, primary care, specialty Rx).
+- Transformed the medical forecast beyond its essential function as a financial reporting tool by adding member-segmented granularity that pinpoints emerging trends for targeted business actions. Present insights to Centene's CFO in monthly calls. 
+- Lead a team of six actuaries and data analysts providing regular guidance and skill training sessions in R. 
+- Demonstrated ability to build strong collaborations with various technical and non-technical business partners with analytic support and business knowledge across medical, pharmacy, provider, membership, health status, sales, and payment data. 
+- Proven record of flexibly adapting team workflow to incorporate forecast estimates for direct and indirect COVID costs and various health care policy changes that impacted membership makeup and anticipated costs. 
+- Developed a member-level gross margin database that combines revenue (e.g premiums, risk transfers) and expense components (e.g. claims) from disparate EDW and financial sources with 40 targetable member, provider, and broker characteristics. Deployed drill-down shiny dashboard in RSConnect that is employed widely across departments to identify opportunities for business initiatives.
+- Identified an $8M annual initiative improving on risk adjustment code capture by data-mining pharmacy prior authorization data.
+
+
+### Data Scientist I
+
+Centene Corporation / *Business Optimization*
+
+Chicago, IL
+
+Jul 2018 - Oct 2017
+
+### Data Analyst II
+
+Centene Corporation / *Business Optimization*
+
+Chicago, IL
+
+Oct 2017 - Sep 2016
+
+- Built and implemented a novel claims completion model using regression to estimate incurred-but-not-reported expenses prior to month end. Model is used for early-warning and to accelerate preparation of financial reporting and commentary. 
+- Developed a probabilistic outlier-detection model based on episodes of care that is used to highlight targets for quality and cost-saving initiatives.
+- Designed enterprise's primary care auto-assignment algorithm to optimally assign members to local providers identified as high-quality and low-cost.
+- Devised interactive RMarkdown reports using automated commentary to highlight emerging trends in Rx utilization. Present findings monthly to Pharmacy Directors of local health plans. 
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Graduate Research Assistant / Computational Biology
+
+University of California Riverside
+
+Riverside, CA
+
+Sep 2010 - Aug 2016
+
+- Analyzed large gene expression datasets with R (Bioconductor) using non-parametric statistical models.
+- Performed statistical tests of codon evolution in cancer gene-sequence alignments using maximum likelihood models.
+- Designed and directed a multi-year longitudinal experimental evolution study on fruit flies that employed advanced experimental design statistics. Supervised 2 – 6 undergraduate volunteer research assistants per quarter.
+- Taught 18 quarters of upper and lower division biology courses with up to 150 students per week. Mentored 2 – 6 undergraduate volunteer research assistants per quarter. 
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -75,71 +137,6 @@ B.S. in Biology, Psychology (Double Major)
 Chestnut Hill, MA
 
 2010 - 2006
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-### Director - Marketplace Forecasting
-Centene Corporation / *Actuarial Services*
-
-Chicago, IL
-
-Current - May, 2020
-
-### Manager - Analytics & Reporting
-Centene Corporation / *Actuarial Services*
-
-Chicago, IL
-
-May, 2020 - Jul, 2018
-
-- Direct the development, implementation, and presentation of the forecast for medical expenses across 27 states using mixed-models regression.
-- Lead a team of six actuaries and data analysts with diverse experience and backgrounds.
-- Developed strong relationships with various technical and non-technical business partners by supporting analytics with team's in-depth knowledge of company's medical, pharmacy, provider, membership, health status, sales, and payment data. 
-- Present findings to leadership on member-segmented variances to forecast, financial impacts of COVID cost and deferral of services, and deep-dives into claims trends during monthly CFO financial briefings.
-- Developed a member-level gross margin database detailing revenue and expense components across 40 targetable member characteristics that integrates disparate data sources using SQL/R. Deployed overlaying drill-down dashboard in RSConnect used widely across departments to identify risks and opportunities for member-segmented business actions.
-- Identified and support an $8M annual initiative improving on risk adjustment code capture by data-mining pharmacy prior authorization data.
-- Created stratified med-management targeting model based on interacting utilization and health status, disease management acceptance, and demographics.
-- Developed a member-level gross margin database detailing revenue and expense components across 40 targetable member characteristics that integrates disparate data sources using SQL/R. Deployed overlaying drill-down dashboard in RSConnect used widely across departments to identify risks and opportunities for member-segmented business actions.
-- Identified and support an $8M annual initiative improving on risk adjustment code capture by data-mining pharmacy prior authorization data.
-
-
-### Data Scientist I
-
-Centene Corporation / *Business Optimization*
-
-Chicago, IL
-
-Jul, 2018 - Oct, 2017
-
-### Data Analyst II
-
-Centene Corporation / *Business Optimization*
-
-Chicago, IL
-
-Oct, 2017 - Sep 2016
-
-- Built and implemented a novel claims completion model using regression to estimate incurred-but-not-reported expenses prior to month end. Model is used for early-warning and to accelerate preparation of financial reporting and commentary. 
-- Developed a probabilistic outlier-detection model based on episodes of care that is used to highlight targets for quality and cost-saving initiatives.
-- Designed enterprise's primary care auto-assignment algorithm to optimally assign members to local providers identified as high-quality and low-cost.
-- Devised Rx trends and top conditions interactive RMarkdown reports using automated commentary to highlight emerging trends in Rx utilization; present findings monthly to Pharmacy Directors of local health plans. 
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-### Graduate Research Assistant / Computational Biology
-
-University of California Riverside
-
-Riverside, CA
-
-Sep, 2010 - Aug, 2016
-
-- Analyzed large gene expression datasets with R (Bioconductor) using non-parametric statistical models.
-- Performed statistical tests of codon evolution in cancer gene-sequence alignments using maximum likelihood models.
-- Designed and directed a multi-year longitudinal experimental evolution study on fruit flies that employed advanced experimental design statistics. Oversaw 2 – 6 undergraduate volunteer research assistants per quarter.
-- Taught 18 quarters of upper and lower division biology courses with up to 150 students per week. Mentored 2 – 6 undergraduate volunteer research assistants per quarter. 
 
 Publications and Presentations {data-icon=file}
 --------------------------------------------------------------------------------
@@ -161,7 +158,7 @@ N/A
 2015
 
 ### Presentations
-Scientific Conferences
+International Scientific Conferences
 
 N/A
 
