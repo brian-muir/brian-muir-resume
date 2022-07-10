@@ -10,7 +10,7 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 ```{css, echo=FALSE}
@@ -34,7 +34,7 @@ Contact Info {#contact}
 
 Skills {data-icon=suitcase}
 --------------------------------------------------------------------------------
-Experienced in statistical analysis, hypothesis testing, predictive analytics, exploratory data analysis, experimental design, healthcare analytics, financial forecasting and budgeting.
+Experienced in predictive analytics, statistical analysis, hypothesis testing, exploratory data analysis, experimental design, healthcare analytics, financial forecasting and budgeting.
 
 **Languages and Tools**
 
@@ -42,11 +42,11 @@ Experienced in statistical analysis, hypothesis testing, predictive analytics, e
 
 **End-to-End R Skills**
 
-- ***Extraction*** (DBI, dbplyr, ROBDC), ***Wrangling*** (tidyverse), ***Modeling / Statistics*** (tidymodels, lme4, ts, etc.), ***Visualization*** (ggplot2, gt, DT, etc.), ***Production*** (RShiny, RMarkdown, RNotebooks, RSConnect)
+- ***Extraction*** (DBI, dbplyr), ***Wrangling*** (dplyr), ***Modeling / Statistics*** (tidymodels, lme4, ts, etc.), ***Visualization*** (ggplot2, plotly, gt, DT, etc.), ***Production*** (RShiny, RMarkdown, RNotebooks, RSConnect)
 
 **Statistics**
 
-- Generalized linear models (logistic, linear, gamma), time series, regression and classification trees, multi-level (mixed) models, experimental design (ANOVAs, non-parametric methods), lifetime value
+- Generalized linear models, time series, regression and classification trees, multi-level (mixed) models, experimental design (ANOVAs, non-parametric methods), lifetime value
 
 Main
 ================================================================================
@@ -73,12 +73,12 @@ Chicago, IL
 
 May 2020 - Jul 2018
 
-- Direct the development, implementation, and presentation of a highly-visible forecast for 7,000+ financial estimates of cost and utilization by month for 27 state health plans and 11 claim categories (e.g. hospital inpatient, primary care, specialty Rx).
+- Direct the development, implementation, and presentation of a highly-visible forecast for 7,000+ financial estimates of medical cost and utilization by month for 27 state health plans and 11 claim categories (e.g. hospital inpatient, primary care, specialty Rx).
 - Transformed the medical forecast beyond its essential function as a financial reporting tool by adding member-segmented granularity that pinpoints emerging trends for targeted business actions. Present insights to Centene's CFO in monthly calls. 
 - Lead a team of six actuaries and data analysts providing regular guidance and skill training sessions in R. 
 - Demonstrated ability to build strong collaborations with various technical and non-technical business partners with analytic support and business knowledge across medical, pharmacy, provider, membership, health status, sales, and payment data. 
-- Proven record of flexibly adapting team workflow to incorporate forecast estimates for direct and indirect COVID costs and various health care policy changes that impacted membership makeup and anticipated costs. 
-- Developed a member-level gross margin database that combines revenue (e.g premiums, risk transfers) and expense components (e.g. claims) from disparate EDW and financial sources with 40 targetable member, provider, and broker characteristics. Deployed drill-down shiny dashboard in RSConnect that is employed widely across departments to identify opportunities for business initiatives.
+- Proven record of quickly adapting team workflow to incorporate forecast estimates for direct and indirect COVID costs and various health care policy changes that impacted membership makeup and anticipated costs. 
+- Developed a member-level gross margin database that integrates disparate revenue and expense financial data with 40 targeted member, provider, and broker characteristics. Deployed a drill-down dashboard in RSConnect utilized widely for strategic decision making and business initiatives across departments.
 - Identified an $8M annual initiative improving on risk adjustment code capture by data-mining pharmacy prior authorization data.
 
 
@@ -99,7 +99,7 @@ Chicago, IL
 Oct 2017 - Sep 2016
 
 - Built and implemented a novel claims completion model using regression to estimate incurred-but-not-reported expenses prior to month end. Model is used for early-warning and to accelerate preparation of financial reporting and commentary. 
-- Developed a probabilistic outlier-detection model based on episodes of care that is used to highlight targets for quality and cost-saving initiatives.
+- Developed a probability-based outlier detection model for episodes of care that is used to highlight targets for quality and cost-saving initiatives.
 - Designed enterprise's primary care auto-assignment algorithm to optimally assign members to local providers identified as high-quality and low-cost.
 - Devised interactive RMarkdown reports using automated commentary to highlight emerging trends in Rx utilization. Present findings monthly to Pharmacy Directors of local health plans. 
 
@@ -116,8 +116,9 @@ Sep 2010 - Aug 2016
 
 - Analyzed large gene expression datasets with R (Bioconductor) using non-parametric statistical models.
 - Performed statistical tests of codon evolution in cancer gene-sequence alignments using maximum likelihood models.
-- Designed and directed a multi-year longitudinal experimental evolution study on fruit flies that employed advanced experimental design statistics. Supervised 2 – 6 undergraduate volunteer research assistants per quarter.
-- Taught 18 quarters of upper and lower division biology courses with up to 150 students per week. Mentored 2 – 6 undergraduate volunteer research assistants per quarter. 
+- Designed and directed a multi-year longitudinal experimental evolution study on fruit flies that employed advanced experimental design statistics. Supervised two to six undergraduate volunteer research assistants per quarter.
+- Taught 18 quarters of upper and lower division biology courses with up to 150 students per week. 
+- Mentor of five fellow graduate students in Graduate Student Mentorship Program. 
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
